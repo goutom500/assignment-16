@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.main-div{
+    width: 1024px;
+    margin: 10px auto;
+}
+.header{
+    background-color:#34495e;
+    padding: 70px;
+}  
+.header ul{
+    text-align: center;
+}
+.header ul li{
+    display: inline-block;
+    padding: 13px;
+    background-color: #e67e22;
+    margin: 0 10px;
+    position: relative;
+}
+.header ul li a{
+    text-decoration: none;
+    color: #34495e;
+}
+.header ul li span{
+    height: 23px;
+    width: 5px;
+    background-color: rgb(245, 244, 255);
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transition: all .3s linear;
+}
+.header ul li:hover span{
+    background-color: #e67e22;
+    transition: all .3s linear;
+}
+.header ul li:hover p{
+    color: #fff;
+    transition: all .3s linear;
+}
+.header p {
+	position: absolute;
+	top: 152%;
+	left: 45%;
+	font-size: 27px;
+    color: #e67e22;
+    transition: all .3s linear;
+}
+.footer{
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+}
+.container {
+	background-color: #9b59b6;
+	padding: 180px;
+	text-align: center;
+	position: relative;
+}
+.sercile-1 {
+	width: 100px;
+	height: 100px;
+	background-color: #34495e;
+	border-radius: 50%;
+	border: 5px dotted #dc7936;
+	display: inline-block;
+	position: absolute;
+	top: 197px;
+	left: 132px;
+}
+.sercile-2 {
+	width: 100px;
+	height: 100px;
+	background-color: #34495e;
+	border-radius: 50%;
+	border: 5px dotted #dc7936;
+	display: inline-block;
+	position: absolute;
+	left: 275px;
+	top: 116px;
+}
+.big-sercile {
+	width: 150px;
+	height: 150px;
+	background-color: #34495e;
+	border-radius: 50%;
+	border: 5px solid #e67e22;
+	display: inline-block;
+	position: absolute;
+	top: 165px;
+	right: 427px;
+}
+.sercile-3 {
+	width: 100px;
+	height: 100px;
+	background-color: #34495e;
+	border-radius: 50%;
+	border: 5px dotted #dc7936;
+	display: inline-block;
+	position: absolute;
+	right: 314px;
+	top: 103px;
+}
+.sercile-4 {
+	width: 100px;
+	height: 100px;
+	background-color: #34495e;
+	border-radius: 50%;
+	border: 5px dotted #dc7936;
+	display: inline-block;
+	position: absolute;
+	top: 197px;
+	right: 155px;
+}
+
+
